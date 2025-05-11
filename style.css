@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Orbitron:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position: absolute;
+  top: 100px;
+  width: 500px;
+  height: 800px;
+  background-color: #eee;
+  padding: 80px;
+  border: 1px solid green;
+}
+
+header h2 {
+  font-size: 2.8rem;
+  color: darkkhaki;
+}
+
+.main-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: white;
+  border: 1px solid darkgray;
+}
+
+.entry-area {
+  border: 1px solid darkgray;
+}
+
+.entry-area input {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  outline: none;
+  border: 0px;
+}
+
+.entry-area input::placeholder {
+  font-style: italic;
+}
+
+.out-area {
+  border: 1px solid darkgray;
+}
+
+.out-area li {
+  text-align: left;
+}
+
+.check-icon {
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid gray;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.check-icon::before {
+  content: "";
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  height: 55%;
+  left: 0;
+  top: 0;
+  border-right: 1.7px solid gray;
+  border-bottom: 1.7px solid gray;
+}
+
+.foot-area {
+  text-align: right;
+}
